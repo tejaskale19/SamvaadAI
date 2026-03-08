@@ -1,0 +1,221 @@
+{
+  "common": {
+    "appName": "संवाद AI",
+    "madeInIndia": "भारत में निर्मित",
+    "poweredByAI": "AI द्वारा संचालित",
+    "loading": "लोड हो रहा है...",
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "submit": "प्रस्तुत करें",
+    "back": "वापस",
+    "next": "आगे",
+    "continue": "जारी रखें",
+    "done": "हो गया",
+    "error": "त्रुटि",
+    "success": "सफल"
+  },
+  "nav": {
+    "home": "होम",
+    "dashboard": "डैशबोर्ड",
+    "generate": "बनाएं",
+    "localize": "अनुवाद",
+    "analytics": "विश्लेषण",
+    "approve": "मंजूरी",
+    "history": "इतिहास",
+    "settings": "सेटिंग्स"
+  },
+  "home": {
+    "tagline": "भारत के लिए AI-संचालित सामग्री निर्माण",
+    "title": "आकर्षक सामग्री बनाएं",
+    "titleHighlight": "सांस्कृतिक बुद्धिमत्ता के साथ",
+    "subtitle": "अंग्रेजी और हिंदी में प्लेटफॉर्म-अनुकूलित, सांस्कृतिक रूप से प्रासंगिक सामग्री उत्पन्न करें। भारतीय बाजार को लक्षित करने वाले ब्रांडों के लिए उपयुक्त।",
+    "promptQuestion": "आप क्या बनाना चाहेंगे?",
+    "features": {
+      "aiGeneration": {
+        "title": "AI सामग्री निर्माण",
+        "description": "अपने ब्रांड की आवाज़ के लिए अनुकूलित 3 अद्वितीय सामग्री विकल्प बनाएं"
+      },
+      "platformOptimization": {
+        "title": "प्लेटफॉर्म अनुकूलन",
+        "description": "Instagram, Twitter, LinkedIn और अन्य के लिए तैयार सामग्री"
+      },
+      "hindiLocalization": {
+        "title": "हिंदी स्थानीयकरण",
+        "description": "सांस्कृतिक संदर्भ संरक्षण के साथ स्वचालित अनुवाद"
+      },
+      "engagement": {
+        "title": "सहभागिता भविष्यवाणी",
+        "description": "आपकी सामग्री के प्रभाव को अधिकतम करने के लिए AI-संचालित स्कोरिंग"
+      },
+      "approval": {
+        "title": "मानव अनुमोदन",
+        "description": "प्रकाशन से पहले सामग्री की समीक्षा, संपादन और अनुमोदन करें"
+      }
+    },
+    "demo": {
+      "title": "डेमो परिदृश्य",
+      "description": "हमारे सिस्टम को आज़माएं:",
+      "prompt": "भारत में एक टिकाऊ कपड़े का ब्रांड लॉन्च करना",
+      "steps": {
+        "step1": "3 Instagram पोस्ट बनाएं",
+        "step2": "हिंदी में अनुवाद करें",
+        "step3": "सहभागिता स्कोर की भविष्यवाणी करें",
+        "step4": "अनुकूलित संस्करण दिखाएं",
+        "step5": "मंजूरी दें"
+      },
+      "tryDemo": "डेमो आज़माएं"
+    }
+  },
+  "generate": {
+    "title": "सामग्री निर्माण",
+    "subtitle": "अपने सोशल मीडिया के लिए AI-संचालित सामग्री विकल्प बनाएं",
+    "selectPlatform": "प्लेटफॉर्म चुनें",
+    "promptLabel": "आप क्या बनाना चाहते हैं?",
+    "promptPlaceholder": "उदा., भारत में एक टिकाऊ कपड़े का ब्रांड लॉन्च करना...",
+    "quickSuggestions": "त्वरित सुझाव",
+    "generateContent": "सामग्री बनाएं",
+    "generating": "सामग्री बना रहे हैं...",
+    "generatedVariants": "बनाए गए विकल्प",
+    "variantCount": "{{count}} विकल्प",
+    "selectVariantHint": "सहभागिता भविष्यवाणी देखने के लिए किसी विकल्प पर क्लिक करें",
+    "engagementAnalysis": "सहभागिता विश्लेषण",
+    "selectVariantPrompt": "सहभागिता भविष्यवाणी देखने के लिए एक विकल्प चुनें",
+    "translateToHindi": "हिंदी में अनुवाद करें",
+    "newPrompt": "नया प्रॉम्प्ट",
+    "trendingHashtags": "ट्रेंडिंग हैशटैग",
+    "platforms": {
+      "instagram": "Instagram",
+      "twitter": "Twitter/X",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook"
+    }
+  },
+  "localize": {
+    "title": "हिंदी स्थानीयकरण",
+    "subtitle": "सांस्कृतिक अनुकूलन के साथ अपनी सामग्री का हिंदी में अनुवाद करें",
+    "originalContent": "मूल सामग्री (अंग्रेजी)",
+    "translatedContent": "अनुवादित सामग्री (हिंदी)",
+    "culturalAdaptations": "सांस्कृतिक अनुकूलन",
+    "translateButton": "हिंदी में अनुवाद करें",
+    "retranslate": "पुनः अनुवाद करें",
+    "proceedToApproval": "मंजूरी के लिए आगे बढ़ें",
+    "noContent": "अनुवाद के लिए कोई सामग्री नहीं",
+    "generateFirst": "पहले सामग्री बनाएं",
+    "backToGenerate": "बनाने पर वापस जाएं"
+  },
+  "approve": {
+    "title": "सामग्री अनुमोदन",
+    "subtitle": "अपनी AI-जनित सामग्री की समीक्षा और अनुमोदन करें",
+    "englishVersion": "अंग्रेजी संस्करण",
+    "hindiVersion": "हिंदी संस्करण",
+    "approveButton": "मंजूर करें",
+    "rejectButton": "अस्वीकार करें",
+    "editButton": "संपादित करें और सहेजें",
+    "feedbackLabel": "प्रतिक्रिया (वैकल्पिक)",
+    "feedbackPlaceholder": "कोई नोट्स या प्रतिक्रिया जोड़ें...",
+    "success": {
+      "approved": "सामग्री मंजूर! 🎉",
+      "approvedDescription": "आपकी सामग्री प्रकाशित होने के लिए तैयार है।",
+      "edited": "सामग्री संपादित और सहेजी गई! ✏️",
+      "editedDescription": "आपकी संपादित सामग्री सहेज दी गई है।",
+      "rejected": "सामग्री अस्वीकृत",
+      "rejectedDescription": "सामग्री को संशोधन के लिए चिह्नित किया गया है।"
+    },
+    "createNew": "नई सामग्री बनाएं",
+    "viewAnalytics": "विश्लेषण देखें",
+    "noContent": "मंजूर करने के लिए कोई सामग्री नहीं",
+    "backToLocalization": "स्थानीयकरण पर वापस जाएं"
+  },
+  "analytics": {
+    "title": "विश्लेषण डैशबोर्ड",
+    "subtitle": "अपनी सामग्री के प्रदर्शन और सहभागिता मेट्रिक्स को ट्रैक करें",
+    "totalContent": "कुल सामग्री",
+    "avgEngagement": "औसत सहभागिता",
+    "totalReach": "कुल पहुंच",
+    "approvedContent": "मंजूर सामग्री",
+    "weeklyPerformance": "साप्ताहिक प्रदर्शन",
+    "platformBreakdown": "प्लेटफॉर्म विभाजन",
+    "topPerforming": "शीर्ष प्रदर्शन वाली सामग्री",
+    "posts": "पोस्ट",
+    "thisWeek": "इस सप्ताह",
+    "vsLastWeek": "पिछले सप्ताह से",
+    "growth": "वृद्धि",
+    "approvalRate": "मंजूरी दर"
+  },
+  "history": {
+    "title": "सामग्री इतिहास",
+    "subtitle": "अपनी पहले बनाई गई सामग्री देखें और प्रबंधित करें",
+    "searchPlaceholder": "प्रॉम्प्ट खोजें...",
+    "filterPlatform": "सभी प्लेटफॉर्म",
+    "filterStatus": "सभी स्थिति",
+    "status": {
+      "approved": "मंजूर",
+      "pending": "लंबित",
+      "rejected": "अस्वीकृत"
+    },
+    "noContent": "आपके फ़िल्टर से मेल खाने वाली कोई सामग्री नहीं मिली",
+    "variants": "विकल्प"
+  },
+  "settings": {
+    "title": "सेटिंग्स",
+    "subtitle": "अपनी संवाद AI प्राथमिकताएं कॉन्फ़िगर करें",
+    "appearance": {
+      "title": "दिखावट",
+      "darkMode": "डार्क मोड",
+      "darkModeDescription": "लाइट और डार्क थीम के बीच स्विच करें"
+    },
+    "notifications": {
+      "title": "सूचनाएं",
+      "push": "पुश सूचनाएं",
+      "pushDescription": "सामग्री मंजूरी के लिए अलर्ट प्राप्त करें"
+    },
+    "language": {
+      "title": "भाषा और स्थानीयकरण",
+      "interface": "इंटरफ़ेस भाषा",
+      "interfaceDescription": "अपनी पसंदीदा भाषा चुनें",
+      "autoTranslate": "स्वतः-अनुवाद",
+      "autoTranslateDescription": "निर्माण के बाद स्वचालित रूप से सामग्री का हिंदी में अनुवाद करें"
+    },
+    "ai": {
+      "title": "AI कॉन्फ़िगरेशन",
+      "model": "AI मॉडल",
+      "variants": "सामग्री विकल्प",
+      "variantsRecommended": "3 विकल्प (अनुशंसित)"
+    },
+    "infrastructure": {
+      "title": "इन्फ्रास्ट्रक्चर",
+      "database": "डेटाबेस",
+      "storage": "स्टोरेज",
+      "cache": "कैश",
+      "aiService": "AI सेवा"
+    },
+    "saveSuccess": "सेटिंग्स सफलतापूर्वक सहेजी गईं!"
+  },
+  "pipeline": {
+    "analyzing": "प्रॉम्प्ट का विश्लेषण",
+    "generating": "AI सामग्री बना रहे हैं",
+    "optimizing": "प्लेटफॉर्म के लिए अनुकूलन",
+    "translating": "भाषा अनुवाद",
+    "predicting": "सहभागिता की भविष्यवाणी",
+    "complete": "सामग्री तैयार!",
+    "error": "एक त्रुटि हुई"
+  },
+  "toast": {
+    "contentGenerated": "सामग्री सफलतापूर्वक बनाई गई!",
+    "contentTranslated": "सामग्री का हिंदी में अनुवाद किया गया",
+    "contentApproved": "सामग्री मंजूर",
+    "contentRejected": "सामग्री अस्वीकृत",
+    "contentEdited": "सामग्री संपादित और सहेजी गई",
+    "settingsSaved": "सेटिंग्स सहेजी गईं",
+    "errorGenerate": "सामग्री बनाने में विफल",
+    "errorTranslate": "सामग्री का अनुवाद करने में विफल",
+    "errorApprove": "सामग्री को मंजूर करने में विफल",
+    "errorGeneric": "कुछ गलत हो गया। कृपया पुनः प्रयास करें।"
+  },
+  "errors": {
+    "required": "यह फ़ील्ड आवश्यक है",
+    "networkError": "नेटवर्क त्रुटि। कृपया अपना कनेक्शन जांचें।",
+    "serverError": "सर्वर त्रुटि। कृपया बाद में पुनः प्रयास करें।",
+    "validationError": "कृपया अपना इनपुट जांचें और पुनः प्रयास करें।"
+  }
+}

@@ -1,0 +1,103 @@
+# SAMVAAD AI Docker Compose
+# Local development environment with all services
+
+version: '3.8'
+
+services:
+  # FastAPI Backend
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: samvaad-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=development
+      - DEBUG=true
+      - AWS_REGION=${AWS_REGION:-ap-south-1}
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+      - BEDROCK_MODEL_ID=${BEDROCK_MODEL_ID:-meta.llama3-70b-instruct-v1:0}
+      - COGNITO_USER_POOL_ID=${COGNITO_USER_POOL_ID}
+      - COGNITO_CLIENT_ID=${COGNITO_CLIENT_ID}
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - JWT_SECRET_KEY=${JWT_SECRET_KEY:-your-super-secret-key}
+      - FRONTEND_URL=http://localhost:3000
+      - SAGEMAKER_ENDPOINT_NAME=${SAGEMAKER_ENDPOINT_NAME}
+      - CLOUDWATCH_LOG_GROUP=${CLOUDWATCH_LOG_GROUP:-/samvaad-ai/backend}
+      - AI_PROVIDER=${AI_PROVIDER:-auto}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    depends_on:
+      - redis
+    volumes:
+      - ./backend:/app:ro
+    restart: unless-stopped
+    networks:
+      - samvaad-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  # Redis Cache (ElastiCache compatible)
+  redis:
+    image: redis:7-alpine
+    container_name: samvaad-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    command: redis-server --appendonly yes
+    restart: unless-stopped
+    networks:
+      - samvaad-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Next.js Frontend (optional - can run separately)
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: samvaad-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://backend:8000/api
+    depends_on:
+      - backend
+    restart: unless-stopped
+    networks:
+      - samvaad-network
+    profiles:
+      - full  # Only starts with --profile full
+
+  # DynamoDB Local (for development without AWS)
+  dynamodb-local:
+    image: amazon/dynamodb-local:latest
+    container_name: samvaad-dynamodb
+    ports:
+      - "8001:8000"
+    volumes:
+      - dynamodb-data:/home/dynamodblocal/data
+    command: ["-jar", "DynamoDBLocal.jar", "-sharedDb", "-dbPath", "/home/dynamodblocal/data"]
+    restart: unless-stopped
+    networks:
+      - samvaad-network
+    profiles:
+      - local  # Only starts with --profile local
+
+networks:
+  samvaad-network:
+    driver: bridge
+
+volumes:
+  redis-data:
+  dynamodb-data:

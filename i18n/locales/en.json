@@ -1,0 +1,221 @@
+{
+  "common": {
+    "appName": "Samvaad AI",
+    "madeInIndia": "Made in India",
+    "poweredByAI": "Powered by AI",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next",
+    "continue": "Continue",
+    "done": "Done",
+    "error": "Error",
+    "success": "Success"
+  },
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "generate": "Generate",
+    "localize": "Localize",
+    "analytics": "Analytics",
+    "approve": "Approve",
+    "history": "History",
+    "settings": "Settings"
+  },
+  "home": {
+    "tagline": "AI-Powered Content Generation for India",
+    "title": "Create Engaging Content",
+    "titleHighlight": "with Cultural Intelligence",
+    "subtitle": "Generate platform-optimized, culturally relevant content in English and Hindi. Perfect for brands targeting the Indian market.",
+    "promptQuestion": "What would you like to create?",
+    "features": {
+      "aiGeneration": {
+        "title": "AI Content Generation",
+        "description": "Generate 3 unique content variants optimized for your brand voice"
+      },
+      "platformOptimization": {
+        "title": "Platform Optimization",
+        "description": "Content tailored for Instagram, Twitter, LinkedIn, and more"
+      },
+      "hindiLocalization": {
+        "title": "Hindi Localization",
+        "description": "Automatic translation with cultural context preservation"
+      },
+      "engagement": {
+        "title": "Engagement Prediction",
+        "description": "AI-powered scoring to maximize your content impact"
+      },
+      "approval": {
+        "title": "Human Approval",
+        "description": "Review, edit, and approve content before publishing"
+      }
+    },
+    "demo": {
+      "title": "Demo Scenario",
+      "description": "Try our system with:",
+      "prompt": "Launching a sustainable clothing brand in India",
+      "steps": {
+        "step1": "Generate 3 Instagram posts",
+        "step2": "Translate to Hindi",
+        "step3": "Predict engagement score",
+        "step4": "Show optimized versions",
+        "step5": "Allow approval"
+      },
+      "tryDemo": "Try Demo"
+    }
+  },
+  "generate": {
+    "title": "Content Generation",
+    "subtitle": "Generate AI-powered content variants for your social media",
+    "selectPlatform": "Select Platform",
+    "promptLabel": "What do you want to create?",
+    "promptPlaceholder": "e.g., Launching a sustainable clothing brand in India...",
+    "quickSuggestions": "Quick Suggestions",
+    "generateContent": "Generate Content",
+    "generating": "Generating content...",
+    "generatedVariants": "Generated Variants",
+    "variantCount": "{{count}} variants",
+    "selectVariantHint": "Click on a variant to see its engagement prediction",
+    "engagementAnalysis": "Engagement Analysis",
+    "selectVariantPrompt": "Select a variant to see engagement prediction",
+    "translateToHindi": "Translate to Hindi",
+    "newPrompt": "New Prompt",
+    "trendingHashtags": "Trending Hashtags",
+    "platforms": {
+      "instagram": "Instagram",
+      "twitter": "Twitter/X",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook"
+    }
+  },
+  "localize": {
+    "title": "Hindi Localization",
+    "subtitle": "Translate your content to Hindi with cultural adaptations",
+    "originalContent": "Original Content (English)",
+    "translatedContent": "Translated Content (Hindi)",
+    "culturalAdaptations": "Cultural Adaptations",
+    "translateButton": "Translate to Hindi",
+    "retranslate": "Re-translate",
+    "proceedToApproval": "Proceed to Approval",
+    "noContent": "No content to translate",
+    "generateFirst": "Generate Content First",
+    "backToGenerate": "Back to Generate"
+  },
+  "approve": {
+    "title": "Content Approval",
+    "subtitle": "Review and approve your AI-generated content",
+    "englishVersion": "English Version",
+    "hindiVersion": "Hindi Version",
+    "approveButton": "Approve",
+    "rejectButton": "Reject",
+    "editButton": "Edit & Save",
+    "feedbackLabel": "Feedback (optional)",
+    "feedbackPlaceholder": "Add any notes or feedback...",
+    "success": {
+      "approved": "Content Approved! 🎉",
+      "approvedDescription": "Your content is ready to be published.",
+      "edited": "Content Edited & Saved! ✏️",
+      "editedDescription": "Your edited content has been saved.",
+      "rejected": "Content Rejected",
+      "rejectedDescription": "The content has been marked for revision."
+    },
+    "createNew": "Create New Content",
+    "viewAnalytics": "View Analytics",
+    "noContent": "No content to approve",
+    "backToLocalization": "Back to Localization"
+  },
+  "analytics": {
+    "title": "Analytics Dashboard",
+    "subtitle": "Track your content performance and engagement metrics",
+    "totalContent": "Total Content",
+    "avgEngagement": "Avg. Engagement",
+    "totalReach": "Total Reach",
+    "approvedContent": "Approved Content",
+    "weeklyPerformance": "Weekly Performance",
+    "platformBreakdown": "Platform Breakdown",
+    "topPerforming": "Top Performing Content",
+    "posts": "posts",
+    "thisWeek": "this week",
+    "vsLastWeek": "vs last week",
+    "growth": "growth",
+    "approvalRate": "approval rate"
+  },
+  "history": {
+    "title": "Content History",
+    "subtitle": "View and manage your previously generated content",
+    "searchPlaceholder": "Search prompts...",
+    "filterPlatform": "All Platforms",
+    "filterStatus": "All Status",
+    "status": {
+      "approved": "Approved",
+      "pending": "Pending",
+      "rejected": "Rejected"
+    },
+    "noContent": "No content found matching your filters",
+    "variants": "variants"
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Configure your Samvaad AI preferences",
+    "appearance": {
+      "title": "Appearance",
+      "darkMode": "Dark Mode",
+      "darkModeDescription": "Switch between light and dark themes"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "push": "Push Notifications",
+      "pushDescription": "Receive alerts for content approvals"
+    },
+    "language": {
+      "title": "Language & Localization",
+      "interface": "Interface Language",
+      "interfaceDescription": "Choose your preferred language",
+      "autoTranslate": "Auto-Translate",
+      "autoTranslateDescription": "Automatically translate content to Hindi after generation"
+    },
+    "ai": {
+      "title": "AI Configuration",
+      "model": "AI Model",
+      "variants": "Content Variants",
+      "variantsRecommended": "3 variants (recommended)"
+    },
+    "infrastructure": {
+      "title": "Infrastructure",
+      "database": "Database",
+      "storage": "Storage",
+      "cache": "Cache",
+      "aiService": "AI Service"
+    },
+    "saveSuccess": "Settings saved successfully!"
+  },
+  "pipeline": {
+    "analyzing": "Analyzing prompt",
+    "generating": "Generating AI content",
+    "optimizing": "Optimizing for platform",
+    "translating": "Translating language",
+    "predicting": "Predicting engagement",
+    "complete": "Content Ready!",
+    "error": "An error occurred"
+  },
+  "toast": {
+    "contentGenerated": "Content generated successfully!",
+    "contentTranslated": "Content translated to Hindi",
+    "contentApproved": "Content approved",
+    "contentRejected": "Content rejected",
+    "contentEdited": "Content edited and saved",
+    "settingsSaved": "Settings saved",
+    "errorGenerate": "Failed to generate content",
+    "errorTranslate": "Failed to translate content",
+    "errorApprove": "Failed to approve content",
+    "errorGeneric": "Something went wrong. Please try again."
+  },
+  "errors": {
+    "required": "This field is required",
+    "networkError": "Network error. Please check your connection.",
+    "serverError": "Server error. Please try again later.",
+    "validationError": "Please check your input and try again."
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "festivals": [
+    "Diwali",
+    "Holi",
+    "Ganesh Chaturthi",
+    "Navratri",
+    "Eid",
+    "Pongal",
+    "Durga Puja",
+    "Onam",
+    "Baisakhi",
+    "Makar Sankranti"
+  ],
+  "cultural_themes": {
+    "family": ["संयुक्त परिवार", "परंपरा", "आशीर्वाद", "त्योहार"],
+    "values": ["अतिथि देवो भव", "वसुधैव कुटुम्बकम्", "धर्म", "कर्म"],
+    "celebrations": ["रंगोली", "दीये", "मिठाई", "पूजा"]
+  },
+  "regional_contexts": {
+    "north": {
+      "languages": ["Hindi", "Punjabi", "Urdu"],
+      "festivals": ["Lohri", "Karwa Chauth", "Baisakhi"],
+      "themes": ["Harvest", "Family bonds", "Tradition"]
+    },
+    "south": {
+      "languages": ["Tamil", "Telugu", "Kannada", "Malayalam"],
+      "festivals": ["Pongal", "Onam", "Ugadi"],
+      "themes": ["Agriculture", "Classical arts", "Temple culture"]
+    },
+    "west": {
+      "languages": ["Marathi", "Gujarati"],
+      "festivals": ["Ganesh Chaturthi", "Navratri", "Gudi Padwa"],
+      "themes": ["Business", "Dance", "Community"]
+    },
+    "east": {
+      "languages": ["Bengali", "Odia", "Assamese"],
+      "festivals": ["Durga Puja", "Rath Yatra", "Bihu"],
+      "themes": ["Arts", "Literature", "Nature"]
+    }
+  },
+  "social_media_trends": {
+    "instagram": {
+      "hashtag_patterns": ["#IndianFashion", "#DesiStyle", "#MadeInIndia"],
+      "content_types": ["Reels", "Stories", "Carousel"],
+      "optimal_posting_times": ["9 AM", "12 PM", "7 PM"]
+    },
+    "twitter": {
+      "hashtag_patterns": ["#Startup", "#MakeInIndia", "#DigitalIndia"],
+      "content_types": ["Threads", "Polls", "Quick updates"],
+      "optimal_posting_times": ["8 AM", "1 PM", "6 PM"]
+    },
+    "linkedin": {
+      "hashtag_patterns": ["#IndianEntrepreneurs", "#BusinessInIndia"],
+      "content_types": ["Articles", "Posts", "Documents"],
+      "optimal_posting_times": ["10 AM", "2 PM", "5 PM"]
+    },
+    "facebook": {
+      "hashtag_patterns": ["#IndianBusiness", "#ShopLocal", "#SupportSmallBusiness"],
+      "content_types": ["Posts", "Videos", "Events"],
+      "optimal_posting_times": ["11 AM", "3 PM", "8 PM"]
+    }
+  },
+  "sustainability_keywords": {
+    "hindi": ["पर्यावरण", "टिकाऊ", "प्राकृतिक", "जैविक", "हरित"],
+    "english": ["Sustainable", "Eco-friendly", "Organic", "Natural", "Green"]
+  },
+  "fashion_themes": {
+    "traditional": ["खादी", "Handloom", "Block Print", "Bandhani", "Chikankari"],
+    "modern": ["Indo-Western", "Fusion", "Contemporary", "Minimalist"],
+    "sustainable": ["Upcycled", "Zero-waste", "Natural dyes", "Organic cotton"]
+  }
+}
