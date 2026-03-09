@@ -105,11 +105,7 @@ app.add_middleware(
     allow_origins=[
         "https://samvaad-ai-three.vercel.app",
         "http://localhost:3000",
-        "http://localhost:3001",
-        "http://127.0.0.1:3000",
-        settings.FRONTEND_URL,
     ],
-    allow_origin_regex=r"https://.*\.vercel\.app",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
